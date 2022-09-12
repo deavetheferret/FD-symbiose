@@ -18,14 +18,14 @@ body {
 
 /* useful */
 
-@import "modules/light-theme/body.css";
-@import "modules/light-theme/chat-item.css";
-@import "modules/light-theme/footer.css";
-@import "modules/light-theme/header.css";
-@import "modules/dark-theme/body.css";
-@import "modules/dark-theme/chat-item.css";
-@import "modules/dark-theme/footer.css";
-@import "modules/dark-theme/header.css";
+@import "modules/L-body.css";
+@import "modules/L-chat-item.css";
+@import "modules/L-footer.css";
+@import "modules/L-header.css";
+@import "modules/D-body.css";
+@import "modules/D-chat-item.css";
+@import "modules/D-footer.css";
+@import "modules/D-header.css";
 
 :root {
   --color-main: #fff;
