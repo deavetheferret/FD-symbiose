@@ -27,6 +27,14 @@ body {
 @import "modules/dark-theme/footer.css";
 @import "modules/dark-theme/header.css";
 
+:root {
+  --color-main: #fff;
+  --color-second: #000;
+  --light-color: #D8D8D8;
+  --dark-color: #464646;
+  --enhanced-color: #574AE2;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;

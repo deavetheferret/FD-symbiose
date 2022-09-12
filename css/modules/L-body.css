@@ -1,0 +1,9 @@
+.index {
+  background-color: var(--color-main);
+}
+
+.index main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
