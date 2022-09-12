@@ -1,3 +1,12 @@
+@import "modules/L-body.css";
+@import "modules/L-chat-item.css";
+@import "modules/L-footer.css";
+@import "modules/L-header.css";
+@import "modules/D-body.css";
+@import "modules/D-chat-item.css";
+@import "modules/D-footer.css";
+@import "modules/D-header.css";
+
 /* reset rules */
 
 * {
@@ -17,15 +26,6 @@ body {
 }
 
 /* useful */
-
-@import "modules/L-body.css";
-@import "modules/L-chat-item.css";
-@import "modules/L-footer.css";
-@import "modules/L-header.css";
-@import "modules/D-body.css";
-@import "modules/D-chat-item.css";
-@import "modules/D-footer.css";
-@import "modules/D-header.css";
 
 :root {
   --color-main: #fff;
