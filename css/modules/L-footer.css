@@ -1,0 +1,8 @@
+.home-page footer {
+  background-color: var(--color-second);
+  color: var(--color-main);
+}
+
+.home-page footer ul {
+  list-style-type: none;
+}
