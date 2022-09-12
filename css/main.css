@@ -18,6 +18,15 @@ body {
 
 /* useful */
 
+@import "modules/light-theme/body.css";
+@import "modules/light-theme/chat-item.css";
+@import "modules/light-theme/footer.css";
+@import "modules/light-theme/header.css";
+@import "modules/dark-theme/body.css";
+@import "modules/dark-theme/chat-item.css";
+@import "modules/dark-theme/footer.css";
+@import "modules/dark-theme/header.css";
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
