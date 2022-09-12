@@ -3,9 +3,20 @@
 * {
   padding: 0;
   margin: 0;
+  cursor: none;
 }
 
-/* variable */
+html {
+  background-color: black;
+}
+
+body {
+  width: 390px;
+  margin: auto;
+  background-color: white;
+}
+
+/* useful */
 
 .material-icons {
   font-family: 'Material Icons';
@@ -23,4 +34,13 @@
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
+}
+
+.svg-cursor {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1000;
+  height: 40px;
+  width: 40px;
+  backdrop-filter: invert(100%);
 }
