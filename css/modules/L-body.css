@@ -18,7 +18,7 @@
   letter-spacing: 1.55px;
   text-align: center;
   text-transform: uppercase;
-  font-family: SFProDisplay-Bold;
+  font-family: var(--font-main);
   margin: 26px 0 0 0;
 }
 
@@ -28,7 +28,7 @@
 
 .index a {
   margin: 63px 0 0 0;
-  font-family: SFPro-Semibold;
+  font-family: var(--font-main);
   font-size: 17px;
   color: #00000077;
   text-align: center;

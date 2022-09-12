@@ -1,0 +1,17 @@
+.home-page header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  letter-spacing: 0.65px;
+  letter-spacing: 1.55px;
+  text-transform: uppercase;
+  font-family: var(--font-main);
+  padding: 20px;
+}
+
+.home-page header img {
+  width: 27px;
+  margin-right: 5px;
+}
