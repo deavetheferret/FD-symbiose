@@ -1,3 +1,5 @@
+/* INDEX PAGE */
+
 .index {
   background-color: var(--color-main);
 }
@@ -5,5 +7,47 @@
 .index main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
 }
+
+.index h1 {
+  font-size: 31px;
+  color: #000000;
+  letter-spacing: 1.55px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: SFProDisplay-Bold;
+  margin: 26px 0 0 0;
+}
+
+.index img {
+  margin: 217px 0 0 0;
+}
+
+.index a {
+  margin: 63px 0 0 0;
+  font-family: SFPro-Semibold;
+  font-size: 17px;
+  color: #00000077;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-main);
+  padding: 10px;
+  border-radius: 10px;
+  transition: color 0.1s, background 0.1s;
+}
+
+.index a:hover,
+.index a:active,
+.index a:focus {
+  background-color: var(--enhanced-color);
+  color: var(--color-main);
+}
+
+/* HOME PAGE  */
+

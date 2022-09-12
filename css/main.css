@@ -1,3 +1,5 @@
+/* CSS modules */
+
 @import "modules/L-body.css";
 @import "modules/L-chat-item.css";
 @import "modules/L-footer.css";
@@ -7,12 +9,25 @@
 @import "modules/D-footer.css";
 @import "modules/D-header.css";
 
+/* fonts */
+
+@font-face {
+  font-family: SF-pro;
+  src: url(../fonts/SF-Pro.woff2);
+}
+
+@font-face {
+  font-family: SF-pro-Italic;
+  src: url(../fonts/SF-Pro-Italic.woff2);
+}
+
 /* reset rules */
 
 * {
   padding: 0;
   margin: 0;
   cursor: none;
+  font-family: var(--font-main);
 }
 
 html {
@@ -33,6 +48,8 @@ body {
   --light-color: #D8D8D8;
   --dark-color: #464646;
   --enhanced-color: #574AE2;
+  --font-main: 'SF-pro';
+  --font-italic: 'SF-Pro-Italic';
 }
 
 .material-icons {
@@ -41,7 +58,6 @@ body {
   font-style: normal;
   font-size: 24px;
   display: inline-block;
-  line-height: 1;
   text-transform: none;
   letter-spacing: normal;
   word-wrap: normal;
@@ -54,10 +70,13 @@ body {
 }
 
 .svg-cursor {
-  border-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
   position: absolute;
   z-index: 1000;
   height: 40px;
   width: 40px;
   backdrop-filter: invert(100%);
+  pointer-events: none;
 }
