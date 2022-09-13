@@ -1,11 +1,9 @@
 /* CSS modules */
 
 @import "modules/L-body.css";
-@import "modules/L-chat-item.css";
 @import "modules/L-footer.css";
 @import "modules/L-header.css";
 @import "modules/D-body.css";
-@import "modules/D-chat-item.css";
 @import "modules/D-footer.css";
 @import "modules/D-header.css";
 
@@ -26,7 +24,7 @@
 * {
   padding: 0;
   margin: 0;
-  cursor: none;
+  /* cursor: none; */
   font-family: var(--font-main);
 }
 
@@ -38,6 +36,9 @@ body {
   width: 390px;
   margin: auto;
   background-color: white;
+  height: 968px;
+  overflow: hidden;
+  position: relative;
 }
 
 /* useful */
@@ -45,15 +46,15 @@ body {
 :root {
   --color-main: #fff;
   --color-second: #000;
-  --light-color: #D8D8D8;
+  --light-color: #d8d8d8;
   --dark-color: #464646;
-  --enhanced-color: #574AE2;
-  --font-main: 'SF-pro';
-  --font-italic: 'SF-Pro-Italic';
+  --enhanced-color: #574ae2;
+  --font-main: "SF-pro";
+  --font-italic: "SF-Pro-Italic";
 }
 
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
@@ -66,7 +67,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
-  font-feature-settings: 'liga';
+  font-feature-settings: "liga";
 }
 
 .svg-cursor {

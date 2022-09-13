@@ -1,8 +1,23 @@
-.home-page footer {
+.home-page footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  width: 35px;
   background-color: var(--color-second);
+  z-index: 500;
+  padding: 10px 20px;
+  top: 0;
+  right: 0;
+  margin: auto;
+}
+
+.home-page footer a {
   color: var(--color-main);
 }
 
-.home-page footer ul {
-  list-style-type: none;
+.home-page footer span {
+  font-size: 35px;
 }
