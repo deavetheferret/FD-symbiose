@@ -29,7 +29,7 @@ document.addEventListener("hovering", function (event) {
 var button = document.querySelector('#button-index');
 
 function hovering(event) {
-  if (button = event) {
+  if (button = "hovering") {
     document.querySelector('.button-bg').classList.add('hovering-button')
   } else {
     document.querySelector('.button-bg').classList.remove('hovering-button')
