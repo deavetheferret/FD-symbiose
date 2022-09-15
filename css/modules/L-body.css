@@ -29,8 +29,8 @@
 .index a {
   margin-top: 63px;
   font-family: var(--font-main);
+  color: var(--color-second);
   font-size: 17px;
-  filter: invert(100%);
   text-align: center;
   text-decoration: none;
   display: flex;
@@ -42,6 +42,13 @@
   position: relative;
 }
 
+.index a .arrow-trigger {
+  animation-name: arrowTrigger;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
 .index a:hover,
 .index a:active,
 .index a:focus {
@@ -51,16 +58,33 @@
 .index a::after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 0%;
   height: 100%;
-  background: blue;
+  left: -8%;
+  background: var(--color-main);
   z-index: -1;
-  transform: scale(0);
   transition: all 0.2s;
+  padding:  5px 10px;
+  border-radius: 10px;
 }
 
 .index a:hover::after {
-  transform: scale(1);
+  width: 102%;
+  background: var(--color-second);
+}
+
+@keyframes arrowTrigger {
+  0% {
+    transform: translateX(0%);
+  }
+
+  50% {
+    transform: translateX(20%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 /* HOME PAGE  */
