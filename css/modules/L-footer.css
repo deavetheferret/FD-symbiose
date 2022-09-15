@@ -4,14 +4,25 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  position: absolute;
   width: 35px;
   background-color: var(--color-second);
-  z-index: 500;
   padding: 10px 20px;
-  top: 0;
-  right: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   margin: auto;
+}
+
+.home-page footer {
+  position: sticky;
+  bottom: -12%;
+  right: 100px;
+  transition: bottom 0.2s ease-in-out;
+}
+
+.home-page footer:hover,
+.home-page footer:active,
+.home-page footer:focus {
+  bottom: 0;
 }
 
 .home-page footer a {

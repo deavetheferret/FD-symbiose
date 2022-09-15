@@ -121,7 +121,10 @@
 
 .home-page .chat-item img {
   width: 62px;
-  z-index: 0;
+}
+
+.home-page {
+  position: relative;
 }
 
 /* CHAT */
